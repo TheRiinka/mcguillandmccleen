@@ -1,0 +1,427 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(3, 28, 50);
+    opacity: 0.9;
+}
+
+header li {
+    float: left;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+header li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    margin-left: 50px;
+    text-shadow: 3px 4px 4px black;
+}
+
+#logo {
+    background-image: url(https://zupimages.net/up/23/11/963v.png);
+    width: 175px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* HOMEPAGE */
+#homepagebackground {
+    padding-top: 60px;
+    background: url(./assets/img/doorbackground.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 700px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 59, 103);
+    font-size: 5em;
+    margin-top: 190px;
+    text-shadow: 1px 3px 5px black;
+}
+
+#firststroke {
+    height: 3px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: rgb(0, 59, 103);
+    text-shadow: 1px 3px 5px black;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 5px black;
+}
+
+/* Présentation */
+
+#presentation {
+    background: rgb(0, 59, 103);
+    padding: 10px 0px 100px 0;
+}
+
+/* Carte de présentation */
+
+h2,
+h4 {
+    margin: 0;
+}
+
+#presentationcard {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    
+}
+
+/* McGuill */
+
+#cardmcguill img {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: relative;
+    top: 20px;
+}
+
+.containermcguill {
+    margin: 0 1.5rem;
+    margin-top: 10%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.cardmcguill {
+
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: 240px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+
+.cardmcguill:hover {
+    box-shadow: 0 5px 9px rgb(0, 77, 139);
+}
+
+.card-topmcguill {
+    background: rgb(0, 77, 139);
+    text-align: center;
+    height: 25%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-infomcguill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.namemcguill {
+    margin-top: 2em;
+    color: rgb(90, 90, 90);
+}
+
+.jobmcguill {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: rgb(0, 77, 139);
+}
+
+.quotemcguill {
+    margin-top: 1em;
+    color: rgb(121, 121, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.card-buttonmcguill {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.card-buttonmcguill button {
+    border: solid 2px rgb(0, 77, 139);
+    border-radius: 10px;
+    background: white;
+    color: rgb(0, 77, 139);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-buttonmcguill button:hover {
+    background: rgb(0, 77, 139);
+    color: white;
+}
+
+/* McCleen */
+
+#cardmccleen img {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: relative;
+    top: 30px;
+}
+
+.containermccleen {
+    margin: 0 1.5rem;
+    margin-top: 10%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.cardmccleen {
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: 240px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+
+.cardmccleen:hover {
+    box-shadow: 0 5px 9px rgb(0, 77, 139);
+}
+
+.card-topmccleen {
+    background: rgb(0, 77, 139);
+    text-align: center;
+    height: 25%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-infomccleen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.namemccleen {
+    text-align: center;
+    margin-top: 2.5em;
+    color: rgb(90, 90, 90);
+}
+
+.jobmccleen {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: rgb(0, 77, 139);
+}
+
+.quotemccleen {
+    margin-top: 1em;
+    color: rgb(121, 121, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.card-buttonmccleen {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.card-buttonmccleen button {
+    border: solid 2px rgb(0, 77, 139);
+    border-radius: 10px;
+    background: white;
+    color: rgb(0, 77, 139);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-buttonmccleen button:hover {
+    background: rgb(0, 77, 139);
+    color: white;
+}
+
+/* Edward Read  */
+
+#cardread img {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: relative;
+    top: 30px;
+}
+
+.containerread {
+    margin: 0 1.5rem;
+    margin-top: 10%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.cardread {
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: 240px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+
+.cardread:hover {
+    box-shadow: 0 5px 9px rgb(0, 77, 139);
+}
+
+.card-topread {
+    background: rgb(0, 77, 139);
+    text-align: center;
+    height: 25%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-inforead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.nameread {
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(90, 90, 90);
+}
+
+.jobread {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: rgb(0, 77, 139);
+}
+
+.quoteread {
+    margin-top: 1em;
+    color: rgb(121, 121, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.card-buttonread {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.card-buttonread button {
+    border: solid 2px rgb(0, 77, 139);
+    border-radius: 10px;
+    background: white;
+    color: rgb(0, 77, 139);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-buttonread button:hover {
+    background: rgb(0, 77, 139);
+    color: white;
+}
+
+/* Section Localisation */
+
+#localisation {
+    height: 600px;
+    padding: 1px 30%;
+    background: rgb(0, 42, 73);
+    
+}
+
+#loca {
+    list-style: none;
+    display: flex;
+    flex-direction: center;
+}
+
+#map img{
+
+    height: 25em;
+    width: 25em;
+    border-radius: 10%;
+    border: solid 3px white;
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+#adress {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 1%;
+}
+
+footer {
+    background: rgb(3, 28, 50);
+    height: 75px;
+}
+
+#copyrighticon {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 25px 3%;
+}
+
+#copyright {
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+#icons {
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
